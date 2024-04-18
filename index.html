@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    .bgimg {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url('Sonali.jpg');
+      min-height: 100%;
+    }
+    </style>
+  </head>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small " style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#WorkExperience" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Work Experience</a>
+    <a href="#Education" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Education</a>
+    <a href="#Project" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Projects</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Sonali Mahendrakar</b></h1>
+    <p>" Learn Grow Develop"</p>
+    <img src="Sonali.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="Sonali.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      <i class="fa fa-download"></i> 
+	  <a href="SonaliM FT_resume.pdf" download="SonaliM FT_resume.pdf">
+          Download Resume 
+	  </a>
+    </button>
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About Me</h2>
+    <hr class="w3-opacity">
+    <p>Hi, I am Sonali Mahendrakar, currently pursuing <b>Master's degree in Computer Science</b> at George Mason University Fairfax, VA, USA, with 3+ years of Software Development experience.</p>
+    <p>I am a passionate developer who is always looking to learn, grow and tackle new challenges. </p>
+      
+      
+    
+      
+    <h3 class="w3-padding-16">My Skills</h3>
+    <hr class="w3-opacity">
+    <p class="w3-wide"><b>Languages:</b> Java, Python, JavaScript, MySQL, C & C++.</p>
+    
+    <p class="w3-wide">  <b>Frameworks:</b> Node JS, React JS, Angular, REST APIs, Docker.</p>
+    
+	<p class="w3-wide"><b>Databases:</b> MySQL, MongoDB, PostgreSQL</p>
+    
+	<p class="w3-wide">  <b>Testing:</b> Junit, Mockito, PostMan</p>
+    
+	<p class="w3-wide"><b>Others: </b>Linux, Git, HTML & CSS, JSON, XML, JSP, Microservices.</p>
+    
+	<p class="w3-wide"><b> Cloud:</b> AWS (Dynamo DB, S3, EC2, IAM, RDS, ECS, CloudWatch, Lambda).</p>
+    
+    <p class="w3-wide"><b>Concepts:</b>Data Structures & Algorithms, Object Oriented Programming, Machine Learning, Artificial Intelligence, Web Development, Operating Systems.</p>
+    <br>
+
+    <!-- Work Experience -->
+    <div id="WorkExperience">
+    <h3 class="w3-padding-24">Work Experience</h3>
+    <hr class="w3-opacity">
+
+    <a href="https://www.hubbell.com/hubbell/en">
+      <img src="hubbell.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"></a>
+      <p><span class="w3-large w3-text-black w3-margin-right">Hubbell Inc.</span> Software Engineer Intern </p>
+      <br>
+      
+      
+      <ul class=" w3-centre-align"style="w3-padding-large">
+        <br>
+        <li class="w3-padding-15">Led the seamless migration of Scala-based functionalities to Java within the Analytical Engine project, a 12-year-old monolithic codebase, utilizing SDLC and agile methodology. Achieved significant enhancements in data processing speed while concurrently refactoring the codebase to reinforce maintainability, resulting in an impressive 35% increase in overall project efficiency.</li>
+        <li class="w3-padding-15">Incorporated Spring Security for secure authentication and authorization, ensuring protected access to resources.</li>
+        <li class="w3-padding-15">Enhanced overall application performance by optimizing database query execution, and meticulously examined the endpoints using JUnit and Postman to validate functionality and handle edge cases, ensuring that the API system maintains an efficacy rate of over 80%.</li>
+        <li class="w3-padding-15">Applied DevOps practices and CI/CD pipelines in Azure cloud-based environments, showcasing proficiency in GIT for source control  and a range of tools such as Jenkins Pipeline.</li>
+        
+        
+      
+      </ul>
+
+      <a href="https://www.gmu.edu/">
+        <img src="gmu.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"></a>
+        <p><span class="w3-large w3-text-black w3-margin-right">George Mason University</span> Graduate Teaching Assistant </p>
+        <br>
+        
+        
+        <ul class=" w3-centre-align"style="w3-padding-large">
+          <li class="w3-padding-15">	Teaching Assistant for Cloud Infrastructure, Cloud Services Management, Big Data on Cloud Systems Responsibilities in AWS, Azure, GCP and it included optimizing course content, assessing assignments, and providing office hours support for a cohort of 100+ students.</li>
+          <li class="w3-padding-15">	Additionally, offering real-time troubleshooting and programming solutions that led to a 90% pass rate and a 25% improvement in overall academic performance.</li>
+          
+          
+        
+        </ul>
+
+        <a href="https://www.gmu.edu/">
+          <img src="gmu.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"></a>
+          <p><span class="w3-large w3-text-black w3-margin-right">George Mason University</span> Graduate Teaching Assistant </p>
+          <br>
+          
+          
+          <ul class=" w3-centre-align"style="w3-padding-large">
+            <li class="w3-padding-15">	Developed a full stack application, Employee Resource Information Center by implementing React.js for the frontend and Node.js with Express.js for the backend, with MongoDB for data storage and management. </li>
+            <li class="w3-padding-15">	Implemented JSON Web Tokens -based authentication and utilized D3.js for insightful data visualizations, designed this intuitive dashboard with dynamic filtering and CRUD functionalities, and ensured responsive design, deploying the application on AWS using Docker containers for scalability and reliability.
+
+            </li>
+            
+          
+          </ul>
+
+    
+    <a href="https://www.cognizant.com/us/en">
+    <img src="Cognizant.webp" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"></a>
+    <p><span class="w3-large w3-text-black w3-margin-right">Cognizant Technology Solutions</span> Software Engineer </p>
+    <br>
+    
+    
+    <ul class=" w3-centre-align"style="w3-padding-large">
+      <li class="w3-padding-15">Involved in analysis, design, implementation, and testing phases of SDLC and used agile methodology.</li>
+      <li class="w3-padding-15">Worked on both the back end and front-end of systems and catered to both user experience and functionality in projects.</li>
+      <li class="w3-padding-15"><b>Enterprise Notification System:</b> 
+        Worked on the development and testing of automated emails for iOS using AEM, maintained across Android platforms and Oracle SQL Developer, resulting in a 15% improvement in user engagement, while also managing 3 modules for a global user base with Java, Spring Boot and TestNG, enhancing system reliability and scalability.
+        </li>
+      <li class="w3-padding-15">Created a pipeline in Jenkins to reduce 30% redundant tasks and performed problem resolution with root cause analysis.</li>
+      <li class="w3-padding-15">Performed database validation in Oracle SQL Developer to increase the accuracy by 25%.</li>
+      
+      <li class="w3-padding-15"><b>Pricing in FedEx:</b> Led the design and testing of a FedEx GUI using Java, Spring Boot and JavaScript resulting in a 30% improvement in pricing and agreement generation efficiency for clients across multiple countries, while also implementing Apache Version One to track progress in an agile environment.</li>
+      <li class="w3-padding-15">Also mapped API, using Postman for Behavioral-Driven framework status and build responsive user interfaces and experiments.</li>
+      <li class="w3-padding-15">Demonstrated leadership in Container Orchestration services, leveraging Docker and Kubernetes to achieve a 20% increase in system efficiency, while optimizing performance through the utilization of various Azure tools and services.</li>
+      
+    
+    </ul>
+    <br>
+    
+    <a href="https://verzeo.com/">
+    <img src="verzeo.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"></a>
+    <p><span class="w3-large w3-text-black w3-margin-right">Verzeo</span> Software Developer</p>
+    <br>
+    <ul class=" w3-centre-align"style="w3-padding-large">
+      <li class="w3-padding-15">Managed AEM implementation’s technical delivery by overseeing custom development, integration, and data migration aspects in an agile environment.</li>
+      <li class="w3-padding-15">Developed UI and services to enable collaboration boards per course and integrated with IMS to support seamless course collaboration between students and instructors using Java, Spring boot, Javascript and TypeScript.</li>
+      <li class="w3-padding-15">Collaborated with clients to develop landing pages, custom analytics tools and integrated with the App UI ﬂow.</li>
+      <li class="w3-padding-15">Demonstrated proficiency in jQuery, Java, and groovy scripts to implement customized features, diagnose and resolve content structure bugs, and improve website search functionality with 90% accuracy.</li>
+      <li class="w3-padding-15">Actively contributed to daily stand-ups, demos, retrospectives, refinements, Go/No-Go, sprint, and PI plannings.</li>
+    </ul>
+    <br>
+     
+  </div>
+    <br>
+        
+    <!-- Grid for education -->
+    <div id="Education">
+    <h3 class="w3-padding-16">My Education</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-teal w3-xlarge w3-padding-32">Bachelor's of Engineering</li>
+          <li class="w3-padding-16">JNTU</li>
+          <li class="w3-padding-16">Major: Computer Science and Engineering</li>
+          <li class="w3-padding-16">GPA: 3.9/4</li>
+          <li class="w3-padding-16">Hyderabad, India</li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-teal w3-xlarge w3-padding-32">Master's of Science</li>
+          <li class="w3-padding-16">George Mason University</li>
+          <li class="w3-padding-16">Major: Computer Science</li>
+          <li class="w3-padding-16">GPA: 3.8/4</li>
+          <li class="w3-padding-16">Fairfax, VA, USA</li>
+        </ul>
+      </div>
+    </div>
+    <!-- End education tables -->
+    </div>
+    
+  <!-- End About Section -->
+  </div>
+
+ <!-- Portfolio Section -->
+ 
+ <div class="w3-padding-32 w3-content w3-text-grey" id="Project">
+  <h2 class="w3-text-grey">My Projects</h2>
+  <hr class="w3-opacity">
+  <p>You will be happy to know that I have completed over 10+ projects successfully!</p>
+  <!-- Grid for photos -->
+   <div class="w3-row-padding" style="margin:0 -16px">
+    <div class="w3-half">
+      <a href="https://github.com/SonaliM2000/Feature-Engineering-for-Election-Result-Prediction-ML"><img src="feature eng election.png" style="width:100%"></a>
+      <a href="https://github.com/SonaliM2000/Artificial-Intelligence-Search-Algorithms"><img src="ai.png" style="width:100%"></a>
+    </div>
+
+    <div class="w3-half">
+      
+     <a href="https://github.com/SonaliM2000/Image-Carosel-website"><img src="image.png" style="width:100%"></a>
+      <a href="https://github.com/SonaliM2000/Student-survey-form"><img src="Student.png" style="width:100%"></a>
+      
+    </div>
+  <!-- End photo grid -->
+  </div> 
+
+   <div class="w3-row w3-center w3-teal w3-padding-16 w3-section">
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">3+</span> <span class="w3-small">years</span><br>
+      Working Experience
+    </div>
+    
+    
+    
+  </div> 
+ 
+
+
+<!-- End Portfolio Section -->
+</div> 
+
+<!-- Contact Section -->
+<div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+  <h2>Connect with me</h2>
+  <hr class="w3-opacity">
+
+  <div class="w3-section">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Virginia, US</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: sonalimahendrakar09@gmail.com <a href="mailto:sonalimahendrakar09@gmail.com"></a></p>
+  
+  </div>
+  <br>
+  <p>Lets get in touch or simply say hello, don't hesitate to send me a message:</p>
+  <form action="https://formsubmit.co/ec0b400142e9f49e8d5416c18de49474" method="POST">
+    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+    <p>
+      <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+    <a href="mailto:sonalimahendrakar09@gmail.com"></a>
+      </button>
+    </p>
+  </form>
+<!-- End Contact Section -->
+</div>  
+
+<!-- Footer. -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+  <a class="fa fa-linkedin w3-hover-opacity" a href="https://www.linkedin.com/in/sonali-mahendrakar-3802b9249/"></a>
+  <a class="fa fa-github w3-hover-opacity" a href="https://github.com/SonaliM2000"></a>
+<a class="fa fa-instagram w3-hover-opacity" a href="https://www.instagram.com/sonali_mahendrakar/"></a>
+  <a class="fa fa-envelope w3-hover-opacity" a href="mailto:sonalimahendrakar09@gmail.com"></a>
+<p style="font-size: 15px"> If you like my work and efforts, you may even consider buying me a coffee & help me study better. <br>
+  Thank you for your support!</p>
+  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="msonaliB" data-description="Support me on Buy me a coffee!" data-message="" data-color="#26B0A1" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+  <!-- End footer -->
+</footer>
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+document.getElementById("mySidebar").style.width = "60%";
+document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
